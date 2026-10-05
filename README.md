@@ -1,5 +1,5 @@
 
-# 🛒  Análise de Dados com Python - Projeto ETL Avaliativo - Módulo 1 - Semana 13 - Turma T3 - ETL Supermercado
+# 🛒  Análise de Dados com Python - Projeto Avaliativo - Módulo 1 - Semana 13 - Turma T3 - ETL Supermercado
 
 Pipeline de **ETL (Extract, Transform, Load)** desenvolvido em Python para extração, armazenamento, tratamento, transformação e análise de dados de vendas de um supermercado.
 
@@ -994,7 +994,7 @@ Algumas evoluções que podem ser implementadas futuramente:
 
 **Sérgio Roberto Reeck Filho**
 
-Projeto avaliativo desenvolvido **Data Science, Engenharia de Dados, ETL, Python, SQL e PostgreSQL**
+Projeto avaliativo desenvolvido para o curso da SCTEC/SENAI - Análise de Dados com Python -  Módulo 1 - Semana 13 - Turma T3.
 
 ---
 
