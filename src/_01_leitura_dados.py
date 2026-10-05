@@ -54,6 +54,7 @@ def carregar_dados_csv_raw_vendas(df):
         "data/raw/raw_vendas.csv",
         index=False,
         encoding="utf-8"
+        # data/raw
     )
 
     print_response("Dados carregados com sucesso!")
