@@ -1,10 +1,10 @@
-# Ambiente Virtual Python
+# Ambiente virtual Python
 .venv/
 venv/
 env/
 
-# Variáveis e Credenciais
+# Variáveis e credenciais
 .env
 
-# Arquivos de Cache
+# Arquivos de cache
 __pycache__/

@@ -1,7 +1,6 @@
 import pandas as pd
 
 from sqlalchemy import text
-from pathlib import Path
 from normalizacao import (print_title,
                           print_load,
                           print_response)
