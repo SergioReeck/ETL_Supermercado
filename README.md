@@ -1,4 +1,3 @@
-
 # 🛒  Análise de Dados com Python - Projeto Avaliativo - Módulo 1 - Semana 13 - Turma T3 - ETL Supermercado
 
 Pipeline de **ETL (Extract, Transform, Load)** desenvolvido em Python para extração, armazenamento, tratamento, transformação e análise de dados de vendas de um supermercado.
@@ -716,6 +715,7 @@ psycopg2-binary
 dotenv
 pathlib
 kagglehub
+matplotlib
 ```
 
 ---
@@ -952,6 +952,62 @@ CHECK (avaliacao >= 0 AND avaliacao <= 10)
 ```
 
 ---
+
+# 📓 Notebook de Análise e Visualização
+
+Como etapa complementar ao processo de ETL, o projeto possui um notebook destinado à **análise exploratória e visualização dos dados tratados**.
+
+O notebook utiliza o arquivo:
+
+```text
+data/processed/vendas_tratadas.csv
+```
+
+e apresenta os principais indicadores obtidos após o processo de transformação dos dados.
+
+### 📊 Análises realizadas
+
+O notebook apresenta análises e visualizações sobre:
+
+- 💰 Faturamento por filial;
+- 🧾 Quantidade de vendas por filial;
+- 🛒 Faturamento por linha de produto;
+- ⭐ Avaliação média por linha de produto;
+- 💳 Distribuição das formas de pagamento;
+- 📈 Distribuição dos valores das vendas;
+- 📅 Quantidade de vendas por dia da semana;
+- 🏆 Identificação da maior venda realizada;
+- 📌 Indicadores gerais do conjunto de dados.
+
+Os resultados são apresentados por meio de tabelas e gráficos, facilitando a interpretação dos dados e permitindo identificar padrões e características relevantes das vendas.
+
+### ▶️ Execução
+
+O notebook pode ser executado utilizando **Jupyter Notebook**, **JupyterLab** ou diretamente pelo **Visual Studio Code** com a extensão Jupyter.
+
+A partir da raiz do projeto:
+
+```bash
+jupyter notebook
+```
+
+Em seguida, abra:
+
+```text
+notebooks/ETL_Supermercado_Estatisticas.ipynb
+```
+
+> **Observação:** o notebook utiliza os dados gerados pelo processo de ETL. Portanto, recomenda-se executar o pipeline antes da análise para garantir que o arquivo `data/processed/vendas_tratadas.csv` esteja atualizado.
+
+### 🔄 Fluxo do projeto
+
+O notebook representa a etapa de **Análise e Visualização** após o processo de ETL:
+
+```text
+Extract → Transform → Load → Analyze & Visualize
+```
+
+Dessa forma, o projeto não apenas realiza a extração, tratamento e armazenamento dos dados, mas também demonstra como os dados tratados podem ser utilizados para gerar **indicadores e insights sobre as vendas do supermercado**.
 
 # 🧠 Conceitos aplicados
 
